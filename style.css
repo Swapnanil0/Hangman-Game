@@ -287,7 +287,9 @@ canvas {
   .start-button {
     width: 80%; /* Further increase button width for small screens */
   }
-
+  .hangman-container img {
+    display: none; /* Hide the hangman image on mobile */
+  }
   .container {
     padding: 1em; /* Reduce padding further for very small screens */
   }

@@ -215,6 +215,9 @@ canvas {
 
 /* Base styles remain unchanged */
 
+/* Existing CSS remains unchanged above this point */
+
+/* Media query for screens smaller than 768px */
 @media screen and (max-width: 768px) {
   .start-container h1 {
     font-size: 2rem; /* Decrease font size for smaller screens */
@@ -226,7 +229,7 @@ canvas {
   }
 
   .hangman-container img {
-    width: 80%; /* Make images larger for better visibility */
+    display: none; /* Hide the hangman image on mobile */
   }
 
   .container {
@@ -279,6 +282,7 @@ canvas {
   }
 }
 
+/* Media query for screens smaller than 480px */
 @media screen and (max-width: 480px) {
   .start-button {
     width: 80%; /* Further increase button width for small screens */
